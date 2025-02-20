@@ -1,9 +1,6 @@
-import React from 'react'
-
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 import { motion } from "framer-motion";
 
-{/* // TODO: 2-Anasayfa CHART değerlerini statik yaptık değiştirmek için aşağıdakilerle oyna */}
 const salesData = [
 	{ name: "Jul", sales: 4200 },
 	{ name: "Aug", sales: 3800 },
